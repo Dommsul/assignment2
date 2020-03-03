@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+}
+
+div {
+    height: 100%;
+    
+  }
+
+
+  /* styling code for video and the gradient that is applied ontop of the timelapse. Help with code from https://codepen.io/lizcoultersmith/pen/MWWxYNE*/
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #333;
+    background: rgba(0,0,0,0.25);
+
+    background-image: linear-gradient(
+        -180deg,
+        rgba(0, 0, 0, 0.614),
+        rgba(255, 255, 255, 0.088)
+    );
+    color: white;
+    margin-bottom: 100px;
+    position: relative;
+    overflow: hidden;
+    min-height: 100vh;
+}
+
+/* styling for my name that appears at the top of the website to make it center */
+h1 {
+  font-family: 'Montserrat', sans-serif !important;
+  font-weight: 300;
+  font-size: 35px;
+  text-align: center;
+  position: absolute;
+  top: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* styling code for the short biography that appears underneath my profile picture, goal was to center it */
+
+p {
+  font-family: 'Quicksand', serif;
+  font-size: 1.5em;
+  padding-top: 7.5em;
+  position: absolute;
+}
+
+.bio {
+  position: absolute;
+  text-align: center;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50% ,-50%);
+}
+
+/* code that will change the color of profile pic when the cursor is over the picture. Code used from https://codepen.io/lizcoultersmith/pen/KKKEpNy */
+.profilepic:hover {
+    filter: grayscale(1);
+    border-style: none;
+    border-radius: 100%;
+    transition: background-size 0.3s ease;
+    filter: grayscale(1);
+    transition: background-size 0.3s ease; 
+}
+/* More code for the timelapse */
+.video-bg {
+    position: absolute;
+    z-index: -1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 100%;
+}
+
+
+/* turns the profile picture into a circle using border-radius */
+img {
+    border-style: none;
+    border-radius: 100%;
+    filter: grayscale(0);
+}
+
+/* This is all code that styles the navigation bar. Code used from https://codepen.io/lizcoultersmith/pen/mddoJPJ */
+nav {
+    margin: 50px;
+  }
+  
+  ul {
+    overflow: auto;
+    list-style-type: none;
+    position: relative;
+    margin: 62px;
+    top: -50%;
+  }
+ 
+  li {
+    height: 30px;
+    float: left;
+    margin-right: 0px;
+    border-right: 1px solid 
+   #aaa;
+    padding: 0 20px;
+  }
+  
+  li:last-child {
+    border-right: none;
+  }
+ 
+  li a {
+    text-decoration: none;
+    color: #ccc;
+    font: 25px/1 'Quicksand', Verdana, sans-serif;
+    text-transform: uppercase;
+    transition: all 0.5s ease;
+  }
+   
+  li a:hover {
+    color: #666;
+  }
+
+  li.active a {
+    font-weight: bold;
+    color: #333
+  }
+
+  /* styles the social media icons */
+  i{
+    position: relative;
+    font-size: 30px ;
+    margin: 10px 100px;
+    color: #000;
+    top: 50px;
+    left: 0px;
+    margin-bottom: 100px;
+  }
+
+.intro {
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+  max-width: 960px;
+}
+
+/* styling the text at the bottom that says 'My social Links; */
+h2 {
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+}
+
+footer {
+  font-family: 'Quicksand' sans-serif;
+  font-size: 10px;
+  text-align: center;
+  width: 100%;
+  min-height: 50px;
+  color: #9d9d9d;
+  background-color: #3d3e42;
+  position: relative;
+  right: 0;bottom:0;left:0;
+  font-family: 'Quicksand';
+  
+}
+
+p{
+  padding-top: 20px;
+  text-align: center;
+  left: 45%;
+}
+
+
+/* mobile version media queries */
+@media screen and (max-width: 1050px) {
+  ul {
+      padding: 0px 300px;
+      padding-left: 50px;
+      margin: 10px;
+      align-items: center;
+  }
+
+  h1{
+    font-size: 2rem;
+  }
+
+.bio{
+  font-size: 1.3rem;
+}
+
+  img{
+    width: 70%;
+    height: 60%;
+    margin-left: 60px;
+    top: 40%;
+  }
+.video-bg{
+  height: 100%;
+  object-fit: cover;
+}
+
+p{
+left: 27%;
+
+}
+
+}
+

@@ -1,0 +1,141 @@
+<!DOCTYPE html> <!-- Code help from https://codepen.io/lizcoultersmith/pen/ZEYEvOr-->
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Responsive Resume</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+<link rel="stylesheet" href="CVstyle.css">
+
+<div class="bar">
+  <nav>
+    <ul>
+      <!-- Navigation bar, code used from https://codepen.io/lizcoultersmith/pen/mddoJPJ -->
+      <li><a href="index.html">Home</a></li>
+      <li><a href="index.html">About</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+        <li class="active">
+      <a href="#">CV</a>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+  </div>
+</head>
+<body>
+<div class="resume-wrapper">
+	<section class="profile section-padding">
+		<div class="container">
+			<div class="picture-resume-wrapper">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <div class="picture-resume">
+        <span><img src="images/finalpic.jpg" alt="" /></span> <!-- profile picture-->
+        <svg version="1.1" viewBox="0 0 350 350">
+  <defs>
+    <filter id="goo">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="8" result="blur" />
+      <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 21 -9" result="cm" />
+    </filter>
+  </defs>
+
+<g filter="url(#goo)" >  
+  <!-- the circle that is displayed behind my profile picture-->
+  <circle id="main_circle" class="st0" cx="171.5" cy="175.5" r="130"/>
+  <circle id="circle" class="bubble0 st1" cx="170" cy="171.5" r="131"/>
+
+</g>  
+</svg>
+
+      </div>
+         <div class="clearfix"></div>
+ </div>
+      <div class="name-wrapper">
+        <h1>Dominic <br/>Sulcas</h1>
+      </div>
+      <div class="clearfix"></div>
+      <div class="contact-info clearfix">
+      	<ul class="list-titles"> <!-- contact details-->
+      		<li>Email:</li>
+      		<li>Home</li>
+      	</ul>
+        <ul class="list-content ">
+        	<li>dsulcas@hotmail.co.uk</li>
+        	<li>London, UK</li>
+        	<li></li>
+        </ul>
+      </div>
+      <div class="contact-presentation">
+      	<p><span class="bold">I am:</span> a hard-working, motivated individual who is meticulous in my attention to detail. I'm experienced in self teaching as I have self taught myself my different skills such as video editing, using photoshop and now improving my HTML and CSS skills rapidly.   </p>
+      </div>
+      <div class="contact-social clearfix">
+      	<ul class="list-titles">
+      		<li>LinkedIn</li>
+      		<li>Github</li>
+      	</ul>
+        <ul class="list-content">
+      		<li><a href="https://www.linkedin.com/in/dominic-sulcas-b0955919a/" class="fa fa-linkedin"></a></li> 
+          <li><a href="https://github.com/Dommsul" class="fa fa-github"></a></li>
+      	</ul>
+      </div>
+		</div>
+	</section>
+  <!-- this section is where im going to be talking about my own experience-->
+  <section class="experience section-padding">
+  	<div class="container">
+  		<h3 class="experience-title">Experience</h3>
+      
+      <div class="experience-wrapper">
+      	<div class="company-wrapper clearfix">
+      		<div class="experience-title">University Student</div> 
+          <div class="time">Sept 2019 - Present</div> 
+      	</div>
+        
+        <div class="job-wrapper clearfix">
+        	<div class="experience-title">Studying Computing </div> 
+          <div class="company-description">
+          	<p>I currently attend University of Northampton studying computing. I chose this course because its something I always had a passion for and im always excited to learn what new tech is being developed within the industry and I want to be a part of that.</p>  <!-- JOB DESCRIPTION  -->
+          </div>
+        </div>
+        
+        <div class="company-wrapper clearfix">
+      		<div class="experience-title">Sixth Form / College</div> 
+          <div class="time">Sept 2016 - June 2019</div> 
+      	</div>
+        
+         <div class="job-wrapper clearfix">
+        	<div class="experience-title">A Level</div> 
+          <div class="company-description">
+          	<p>I studied computing a A Level, and I loved it. Once I started learning I knew it was something I wanted to persue as my career. I learned the fundamentals and basics of computing which set a foundation for my computer knowledge which would allow me to later build upon.</p>  <!-- JOB DESCRIPTION  -->
+          </div>
+        </div>
+        
+      </div>
+      
+      <div class="section-wrapper clearfix">
+      	<h3 class="section-title">Competencies</h3>
+        	<ul>
+        		<li class="skill-percentage">HTML / HTML5</li>
+        		<li class="skill-percentage">CSS </li>
+        		<li class="skill-percentage">Photoshop</li>
+        		<li class="skill-percentage">Adobe After Effects</li>
+            <li class="skill-percentage">Adobe Premiere Pro</li>
+            <li class="skill-percentage">Sony Vegas</li>
+            
+        	</ul>
+        
+      </div>
+      
+      <div class="section-wrapper clearfix">
+        <h3 class="section-title">Hobbies</h3>
+        <p>My hobbies consist of learning and developing on my knowledge of computer languages also researching about whats next in the tech industry. </p>
+        <br>
+        
+        <p>I also experiment with video editing softwares and photoshop to explore my creative side which also improves my vision when designing websites which stem from my creative thinking. I believe that I am ready to learn to be a great developer within this industy and im ready to put my skills to the test.</p> 
+      </div>
+      
+  	</div>
+  </section>
+  
+  <div class="clearfix"></div>
+</div>
+  
+</body>
+</html>
