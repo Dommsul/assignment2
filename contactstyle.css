@@ -1,7 +1,11 @@
 
   /* Navigation bar code */
-  nav {
-    margin: 50px 2px;
+  navbar {
+    display: flex;
+    flew-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    top: 50%;
   }
   
   ul {
@@ -42,9 +46,11 @@
     color: #333
   }
 
+
+  
   
 /* Styling for the short paragraph*/
-h1{
+P{
   text-align: center;
   font-family: 'Quicksand', sans-serif;
   font-weight: 100;
