@@ -87,9 +87,10 @@ img {
 }
 
 /* This is all code that styles the navigation bar. Code used from https://codepen.io/lizcoultersmith/pen/mddoJPJ */
+
 navbar {
   display: flex;
-  flew-wrap: wrap;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
@@ -152,6 +153,8 @@ navbar {
 
 /* styling the text at the bottom that says 'My social Links; */
 h4 {
+  top: 50px;
+  position: relative;
   font-family: 'Quicksand', sans-serif;
   text-align: center;
   font-size: 1.5 em;

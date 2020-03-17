@@ -4,10 +4,14 @@
     }
 
  /* navigation bar styling */
- nav {
-    margin: 50px;
+ navbar {
+     padding-top: 48px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
   }
-  
+
   ul {
     overflow: auto;
     list-style-type: none;
@@ -152,6 +156,13 @@
     }
 
     /* media queries to protfolio grids onto page in mobile version  */
+
+    @media screen and (min-width: 993px) {
+        i.material-icons {
+          display: none;
+        }
+      }
+
  @media screen and (max-width: 1050px) {
     ul {
         padding: 0px 300px;

@@ -4,21 +4,37 @@
   <meta charset="UTF-8">
   <title>Responsive Resume</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 <link rel="stylesheet" href="CVstyle.css">
 
-<div class="bar">
-  <nav>
-    <ul>
-      <!-- Navigation bar, code used from https://codepen.io/lizcoultersmith/pen/mddoJPJ -->
-      <li><a href="index.html">Home</a></li>
-      <li><a href="index.html">About</a></li>
-      <li><a href="portfolio.html">Portfolio</a></li>
-        <li class="active">
-      <a href="#">CV</a>
-      <li><a href="contact.html">Contact</a></li>
-    </ul>
-  </nav>
-  </div>
+<div class="navbar">
+  <!-- Navigation bar used to navigate around the website. The following code was used from this https://codepen.io/lizcoultersmith/pen/mddoJPJ -->
+        <navbar>
+        
+            <a href="#" class="sidenav-trigger" data-target="mobile-nav">
+              <i class="material-icons">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                  <li><a href="#">Home</a></li>              
+                  <li><a href="#">About</a></li>
+                 <li><a href="portfolio.html">Portfolio</a></li>
+                 <li class="active">
+                 <a href="CV.html">CV</a></li>
+                 <li><a href="contact.html">Contact</a></li>
+                </ul>
+              </navbar>
+            
+          </div>
+          
+            <ul class="sidenav" id="mobile-nav">
+              <li><a href="#">Home</a></li>              
+               <li><a href="#">About</a></li>
+              <li><a href="portfolio.html">Portfolio</a></li>
+              <li class="active">
+              <a href="CV.html">CV</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+
 </head>
 <body>
 <div class="resume-wrapper">
@@ -136,6 +152,7 @@
   
   <div class="clearfix"></div>
 </div>
-  
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script src="main.js"></script>
 </body>
 </html>
