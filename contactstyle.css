@@ -1,4 +1,8 @@
 
+.container {
+  background: #3d3e42
+}
+
   /* Navigation bar code */
   navbar {
     padding-top: 33px;
@@ -163,7 +167,7 @@ P{
       top: 35%;
     }
 
-.btn{
+.buttonsicon{
   display: block;
   top: 30%;
 }
