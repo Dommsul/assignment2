@@ -1,62 +1,71 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" >
 <head>
-  <title>Contact</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.2">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="contactstyle.css">
-        <!-- Google font API to use different fonts-->
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat%7COswald%7CQuicksand:300&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/d28cae2c95.js" crossorigin="anonymous"></script>
-    <!--<span> <img class="background" src="images/beach.jpg" alt="background" ></span> -->
-    
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <meta charset="UTF-8">
+  <title>CodePen - Material Design Contact form</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:100%7CQuicksand:300%7CSlabo+27px&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./contactstyle.css">
+
 </head>
 <body>
+
   <div class="navbar">
     <!-- Navigation bar used to navigate around the website. The following code was used from this https://codepen.io/lizcoultersmith/pen/mddoJPJ -->
-    <navbar>
-        
-      <a href="#" class="sidenav-trigger" data-target="mobile-nav">
-        <i class="material-icons">menu</i>
-      </a>
-          <ul class="right hide-on-med-and-down">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="index.html">About</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
-            <li><a href="CV.html">CV</a></li>
-            <li class="active">
-              <a href="#">Contact</a></li>
-          </ul>
-        </navbar>
-      </div>
-    </div>
-    
-      <ul class="sidenav" id="mobile-nav">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="index.html">About</a></li>
-        <li><a href="portfolio.html">Portfolio</a></li>
-        <li><a href="CV.html">CV</a></li>
-        <li class="active">
-          <a href="#">Contact</a></li>
-      </ul>
-<div class="container"
-      <p>Hey! You found my contacts page! Here are links to my social medias and ways to get in touch with me.</P>
-            <div class="buttons">
-                <a href="https://github.com/Dommsul" class="buttonsicon">Github</a> <!-- Links to my social medias-->
-                <a href="http://www.twitter.com/" class="buttonsicon">Twitter</a>
-                <a href="https://www.linkedin.com/in/dominic-sulcas-b0955919a/" class="buttonsicon">Linkedin</a>
-      </div>
+          <navbar>
+          
+              <a href="#" class="sidenav-trigger" data-target="mobile-nav">
+                <i class="material-icons">menu</i>
+              </a>
+                  <ul class="right hide-on-med-and-down">
+                    <li><a href="#">Home</a></li>
+                    <li class="active">
+                      <a href="#">About</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="CV.html">CV</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                  </ul>
+                </navbar>
+              
+              </div>
+            
+              <ul class="sidenav" id="mobile-nav">
+                <li><a href="#">Home</a></li>
+                <li class="active">
+                  <a href="#">About</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="CV.html">CV</a></li>
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+            
+            <section>
 
-      <footer>
-        <div class="container-fluid">
-      <p style="font-family: 'Quicksand' sans-serif;">Copyrights &copy Dominic Sulcas</p>
+           
+<!-- partial:index.partial.html -->
+<form>
+  
+  <h1>Feel free to contact me</h1>
+  <input placeholder="Name" type="text"  value="" required>
+  <input placeholder="Email address" type="email" onblur="this.setAttribute('value', this.value);" value="" required>
+  
+  <input placeholder="Location" type="text" value="" required>
+  <div class="flex">
+    <textarea placeholder="Message" rows="1" required></textarea>
+  </div>
+  <button>Send</button>
+</form>
 
-    </div>
-   </footer>   
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-   <script src="main.js"></script>
+<a class="social"  href="https://twitter.com/mildrenben" target="_blank"><i class="fa fa-twitter"></i>Follow Me</a>
+<a class="social"  href="https://twitter.com/mildrenben" target="_blank"><i class="fa fa-twitter"></i>Follow Me</a>
+<a class="social"  href="https://twitter.com/mildrenben" target="_blank"><i class="fa fa-twitter"></i>Follow Me</a>
+ 
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+<link href='https://fonts.googleapis.com/css?family=Roboto:400' rel='stylesheet' type='text/css'>
+<!-- partial -->
+  <script  src="./script.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="main.js"></script>
 </body>
 </html>
