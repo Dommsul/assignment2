@@ -16,34 +16,38 @@ body {
   
 }
 
-.container {
-
-}
+div> container {
 
 /* .bar is Navigation bar */
-{
-  position: relative;
-  margin: 48px;
+
+  float: left !important;
+  width: 0 !important;
 }
 
 navbar {
+  padding-bottom: 20px;
   margin-top: 48px;
   margin-bottom: 50px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    top: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  top: 50%;
+  font-weight: 100;
 }
 
- ul {
+#nav-a {
+  padding-bottom: 20px;
+}
+
+#nav-a ul {
   overflow: auto;
   list-style-type: none;
   position: relative;
   top: -50%;
 }
 
- li {
+#nav-a li {
   height: 30px;
   float: left;
   margin-right: 0px;
@@ -52,11 +56,11 @@ navbar {
   padding: 0 20px;
 }
 
- li:last-child {
+#nav-a li:last-child {
   border-right: none;
 }
 
- li a {
+#nav-a li a {
   text-decoration: none;
   color: #ccc;
   font: 25px/1 'Quicksand', Verdana, sans-serif;
@@ -64,11 +68,11 @@ navbar {
   transition: all 0.5s ease;
 }
  
- li a:hover {
+#nav-a li a:hover {
   color: #666;
 }
 
-li.active a {
+#nav-a li.active a {
   font-weight: bold;
   color: #333
 }
@@ -102,13 +106,9 @@ a {
   height: 100%;
 }
 
-.container {
-  min-height: 600px;
-    margin: 0 auto;
-  max-width: 1280px;
-  width: 100%;
+
   
-}
+
 
 .profile {
   background: #fff;
@@ -541,7 +541,7 @@ i{
   position: relative;
   font-size: 20px ;
   margin: 10px 100px;
-  color: white;
+  color: black;
   top: 10px;
   left: 0px;
   margin-bottom: 50px;

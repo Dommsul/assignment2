@@ -261,12 +261,12 @@ navbar  {
   }
    
   li a:hover {
-    color: #666;
+    color: rgb(133, 123, 146);
   }
 
   li.active a {
     font-weight: bold;
-    color: #333
+    color: rgb(199, 183, 219)
   }
 
   i  {
