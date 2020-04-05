@@ -1,12 +1,18 @@
 @import url(https://fonts.googleapis.com/css?family=Varela+Round);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700);
 @import url(https://fonts.googleapis.com/css?family=Quicksand:); /* Importing fonts */
+
+
+
 *, *::after, *::before {
   box-sizing: border-box;
 }
 
+
+
 html, body {
   height: 100%;
+  
 }
 
 body {
@@ -16,23 +22,18 @@ body {
   
 }
 
-div> container {
-
-/* .bar is Navigation bar */
-
-  float: left !important;
-  width: 0 !important;
+.side-nav li>a, .side-nav li>span {
+  font-size: 100;
 }
 
 navbar {
-  padding-bottom: 20px;
-  margin-top: 48px;
+  margin-top: 47px;
   margin-bottom: 50px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  top: 50%;
+  top: 50% !important;
   font-weight: 100;
 }
 

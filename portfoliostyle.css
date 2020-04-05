@@ -1,25 +1,31 @@
 * {
     margin:0;
     padding:0;
+    
     }
+
 
  /* navigation bar styling */
  navbar {
-     padding-top: 48px;
+   margin: auto;
+    padding-top: 63px;
+
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+
+    
   }
 
-  ul {
+  #nav-a ul {
     overflow: auto;
     list-style-type: none;
     position: relative;
     top: -50%;
   }
  
-  li {
+  #nav-a li {
     height: 30px;
     float: left;
     margin-right: 0px;
@@ -28,11 +34,11 @@
     padding: 0 20px;
   }
   
-  li:last-child {
+  #nav-a li:last-child {
     border-right: none;
   }
  
-  li a {
+  #nav-a li a {
     text-decoration: none;
     color: #ccc;
     font: 25px/1 'Quicksand', Verdana, sans-serif;
@@ -40,11 +46,11 @@
     transition: all 0.5s ease;
   }
    
-  li a:hover {
+  #nav-a li a:hover {
     color: #666;
   }
 
-  li.active a {
+  #nav-a li.active a {
     font-weight: bold;
     color: #333
   }
@@ -82,6 +88,7 @@
     .container {
         width: 96rem;
         margin: 2rem auto;
+       
     }
     
     .gallery-item {
@@ -98,6 +105,7 @@
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
         grid-gap: 1.5rem;
         grid-auto-rows: minmax(150px, auto);
+        padding-left: 90px !important;
     }
     
     .image { 
@@ -167,6 +175,8 @@
         }
       }
 
+
+
   
     h1 {
         font-size: 2.2rem;
@@ -176,6 +186,7 @@
         width: 76rem;
         margin: 2rem auto;
         align-items: center;
+        
     }
     
     .gallery{
@@ -187,7 +198,7 @@
         top: 100%;
       }
 
-      }
+      
 
       footer {
         font-family: 'Quicksand' sans-serif;
