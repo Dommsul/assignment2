@@ -4,6 +4,40 @@
     
     }
 
+    navbar {
+      animation: fadeinbar ease 0.5s;
+         animation-iteration-count: 1; 
+         animation-fill-mode: forwards;  
+     }
+     
+     @keyframes fadeinbar { 
+       0% { 
+           opacity: 0; 
+           transform: translateY(-300px);
+       } 
+       100% { 
+           opacity: 1; 
+           transform: translateY(0px);
+        } 
+     } 
+
+    .gallery, .container {
+      animation: fadeingallery ease 0.5s;
+         animation-iteration-count: 1; 
+         animation-fill-mode: forwards;  
+     }
+     
+     @keyframes fadeingallery { 
+       0% { 
+           opacity: 0; 
+           transform: translateY(300px);
+       } 
+       100% { 
+           opacity: 1; 
+           transform: translateY(0px);
+        } 
+     } 
+
 
  /* navigation bar styling */
  navbar {

@@ -8,6 +8,8 @@ div {
   }
 
 
+
+
   /* styling code for video and the gradient that is applied ontop of the timelapse. Help with code from https://codepen.io/lizcoultersmith/pen/MWWxYNE*/
 .hero {
     display: flex;
@@ -22,10 +24,11 @@ div {
         rgba(255, 255, 255, 0.088)
     );
     color: white;
-    margin-bottom: 100px;
+    
     position: relative;
     overflow: hidden;
     min-height: 100vh;
+    margin-bottom: 0;
 }
 
 /* styling for my name that appears at the top of the website to make it center */
@@ -38,6 +41,7 @@ h3 {
   top: 50px;
   left: 50%;
   transform: translateX(-50%);
+  margin-bottom: 0;
 }
 
 /* styling code for the short biography that appears underneath my profile picture, goal was to center it */
@@ -47,6 +51,7 @@ p {
   font-size: 1.5em;
   padding-top: 7.5em;
   position: absolute;
+  margin-bottom: 0;
 }
 
 .bio {
@@ -55,6 +60,7 @@ p {
   top: 80%;
   left: 50%;
   transform: translate(-50% ,-50%);
+  margin-bottom: 0;
 }
 
 /* code that will change the color of profile pic when the cursor is over the picture. Code used from https://codepen.io/lizcoultersmith/pen/KKKEpNy */
@@ -159,6 +165,7 @@ h4 {
   text-align: center;
   font-size: 1.5 em;
   font-weight: 100;
+  padding-bottom: 60px;
 }
 
 footer {
