@@ -313,7 +313,7 @@ a {
   }
 } /* layout of the experience section */
 .experience .job-wrapper {
-  width: 70%;
+  width: 100%;
   float: left;
   text-align: left;
   padding-right: 5%;

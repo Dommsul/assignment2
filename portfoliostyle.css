@@ -204,10 +204,10 @@
     /* media queries to protfolio grids onto page in mobile version  */
 
     @media screen and (min-width: 993px) {
-        i.material-icons {
-          display: none;
-        }
+      i.material-icons-nav {
+        display: none;
       }
+    }
 
 
 
