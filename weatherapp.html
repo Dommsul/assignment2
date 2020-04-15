@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Weather App - JavaScript</title>
+    <link rel="stylesheet" href="font/Rimouski.css">
+    <link rel="stylesheet" href="weatherappstyle.css">
+</head>
+<body>
+
+    <video class="video-bg" autoplay muted loop>
+        <source src="assets/timelapseweather.mp4" type="video/mp4">
+    </video>
+
+    <div class="container">
+        
+        <div class="app-title">
+            <p>Weather</p>
+        </div>
+        <div class="notification"> </div>
+        <div class="weather-container">
+            <div class="weather-icon">
+                <img src="icons/unknown.png" alt="">
+            </div>
+            
+            <div class="temperature-value">
+                <p>- °<span>C</span></p>
+            </div>
+
+            <div class="temperature-description">
+                <p> - </p>
+            </div>
+            
+            <div class="location">
+                <p>-</p>
+            </div>
+        </div>
+    </div>
+    <script src="weatherapp.js"></script>
+</body>
+</html>

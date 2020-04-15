@@ -3,14 +3,17 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta charset="UTF-8">
-  <title>CodePen - Material Design Contact form</title>
+  <title>My Contact Page</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:100%7CQuicksand:300%7CSlabo+27px&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 <link rel="stylesheet" href="./contactstyle.css">
 
 </head>
 <body>
+  
   <div class="navbar">
     <!-- Navigation bar used to navigate around the website. The following code was used from this https://codepen.io/lizcoultersmith/pen/mddoJPJ -->
           <navbar>
@@ -42,18 +45,19 @@
 
            
 <!-- partial:index.partial.html -->
-<form>
+  <form>
   
-  <p>Feel free to contact me</p>
-  <input placeholder="Name" type="text"  value="" required>
-  <input placeholder="Email address" type="email" onblur="this.setAttribute('value', this.value);" value="" required>
+    <p>Feel free to contact me</p>
+    <input placeholder="Name" type="text"  value="" required>
+    <input placeholder="Email address" type="email" onblur="this.setAttribute('value', this.value);" value="" required>
   
-  <input placeholder="Location" type="text" value="" required>
-  <div class="flex">
-    <textarea placeholder="Message" rows="1" required></textarea>
-  </div>
-  <button>Send</button>
-</form>
+    <input placeholder="Location" type="text" value="" required>
+    <div class="flex">
+      <textarea placeholder="Message" rows="1" required></textarea>
+    </div>
+    <button>Send</button>
+  </form>
+<div id="particles-js"></div>
 
 <a class="social"  href="https://twitter.com/DSulcas" target="_blank"><i class="fa fa-twitter"></i>Follow Me</a>
 
@@ -64,5 +68,13 @@
   <script  src="./script.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
   <script src="main.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script type="text/javascript" src="particles.js"></script>
+  <script type="text/javascript" src="app.js"></script>
+
+
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>
